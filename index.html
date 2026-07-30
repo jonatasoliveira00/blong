@@ -1,74 +1,228 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Blog Pessoal</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meu Blog Pessoal</title>
 
-    <style>
-        body {
-            background-color: #fff8b0; /* Amarelo claro */
-            font-family: Arial, sans-serif;
-            text-align: center;
-            color: black;
-            font-weight: bold;
-            margin: 40px;
-        }
+<style>
 
-        h1 {
-            font-size: 40px;
-        }
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
-        h2 {
-            margin-top: 30px;
-        }
+body{
+    background:#ffd93d; /* Amarelo mais forte */
+    font-family:Arial, Helvetica, sans-serif;
+    color:#222;
+}
 
-        p {
-            font-size: 20px;
-            line-height: 1.8;
-        }
+header{
+    background:#ffb300;
+    color:white;
+    text-align:center;
+    padding:30px;
+    box-shadow:0 3px 10px gray;
+}
 
-        .caixa {
-            background-color: white;
-            width: 70%;
-            margin: auto;
-            padding: 20px;
-            border-radius: 15px;
-            box-shadow: 3px 3px 10px gray;
-        }
-    </style>
+header h1{
+    font-size:45px;
+}
+
+header p{
+    font-size:20px;
+}
+
+.container{
+    width:80%;
+    max-width:1000px;
+    margin:30px auto;
+}
+
+.caixa{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+    margin-bottom:30px;
+}
+
+h2{
+    color:#d97706;
+    margin-bottom:15px;
+    border-bottom:3px solid #ffd93d;
+    display:inline-block;
+    padding-bottom:5px;
+}
+
+p{
+    font-size:20px;
+    line-height:1.8;
+    margin:10px 0;
+}
+
+ul{
+    font-size:20px;
+    line-height:2;
+    margin-left:30px;
+}
+
+img{
+    width:180px;
+    border-radius:50%;
+    border:5px solid #ffb300;
+    margin:20px 0;
+}
+
+.card{
+    background:#fff8dc;
+    padding:15px;
+    border-radius:10px;
+    margin:15px 0;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.03);
+    background:#fff3b0;
+}
+
+footer{
+    background:#ffb300;
+    color:white;
+    text-align:center;
+    padding:20px;
+    font-size:18px;
+}
+
+</style>
+
 </head>
 
 <body>
 
-    <div class="caixa">
-        <h1>Meu Blog Pessoal</h1>
+<header>
 
-        <h2>Quem Sou Eu</h2>
+<h1>🌟 Meu Blog Pessoal 🌟</h1>
 
-        <p>
-            Olá! Seja bem-vindo ao meu blog.
-            Aqui vou contar um pouco sobre as coisas que mais gosto de fazer.
-        </p>
+<p>Seja muito bem-vindo ao meu cantinho na internet!</p>
 
-        <h2>Meus Hobbies</h2>
+</header>
 
-        <p>🃏 Gosto muito de jogar truco com a família e os amigos.</p>
+<div class="container">
 
-        <p>⚽ Sou apaixonado por futebol e adoro assistir e jogar.</p>
+<div class="caixa">
 
-        <p>🥩 Nada melhor do que um bom churrasco no fim de semana.</p>
+<center>
 
-        <p>🤠 Curto muito o estilo country, músicas sertanejas e o ambiente da fazenda.</p>
+<img src="https://via.placeholder.com/180" alt="Minha Foto">
 
-        <p>🚗 Também gosto de sair com os amigos para conversar, dar risada e aproveitar os momentos.</p>
+</center>
 
-        <p>🎵 Gosto de ouvir música, conhecer lugares novos e aproveitar a vida ao máximo.</p>
+<h2>👤 Quem Sou Eu</h2>
 
-        <h2>Obrigado pela visita!</h2>
+<p>
+Olá! Meu nome é <strong>Seu Nome</strong>.
+Sou uma pessoa alegre, gosto de aproveitar a vida e passar bons momentos com minha família e amigos.
+Neste blog compartilho um pouco sobre quem eu sou e as coisas que mais gosto de fazer.
+</p>
 
-        <p>Volte sempre para acompanhar novas histórias e novidades!</p>
-    </div>
+</div>
+
+<div class="caixa">
+
+<h2>🎯 Meus Hobbies</h2>
+
+<div class="card">
+🃏 Jogar truco com a família e os amigos.
+</div>
+
+<div class="card">
+⚽ Assistir e jogar futebol.
+</div>
+
+<div class="card">
+🥩 Fazer churrasco nos finais de semana.
+</div>
+
+<div class="card">
+🤠 Ouvir músicas sertanejas e curtir o estilo country.
+</div>
+
+<div class="card">
+🚗 Sair para passear e conversar com os amigos.
+</div>
+
+<div class="card">
+🎵 Escutar música e conhecer lugares novos.
+</div>
+
+</div>
+
+<div class="caixa">
+
+<h2>⭐ Curiosidades Sobre Mim</h2>
+
+<ul>
+<li>Meu esporte favorito é futebol.</li>
+<li>Gosto de reunir a família.</li>
+<li>Adoro um bom churrasco.</li>
+<li>Prefiro ambientes de fazenda.</li>
+<li>Gosto de fazer novas amizades.</li>
+<li>Estou aprendendo programação.</li>
+</ul>
+
+</div>
+
+<div class="caixa">
+
+<h2>🎵 Músicas que Gosto</h2>
+
+<p>🎤 Henrique e Juliano</p>
+
+<p>🎤 Jorge e Mateus</p>
+
+<p>🎤 Zé Neto e Cristiano</p>
+
+<p>🎤 Gusttavo Lima</p>
+
+</div>
+
+<div class="caixa">
+
+<h2>💭 Meus Sonhos</h2>
+
+<p>
+✔ Viajar pelo Brasil.<br>
+✔ Conhecer lugares novos.<br>
+✔ Continuar aprendendo programação.<br>
+✔ Construir uma carreira de sucesso.<br>
+✔ Aproveitar cada momento com minha família.
+</p>
+
+</div>
+
+<div class="caixa">
+
+<h2>📞 Contato</h2>
+
+<p>📧 Email: seuemail@email.com</p>
+
+<p>📱 Instagram: @seuperfil</p>
+
+</div>
+
+</div>
+
+<footer>
+
+<p>Obrigado pela visita! ❤️</p>
+
+<p>Volte sempre para acompanhar novas histórias e novidades.</p>
+
+</footer>
 
 </body>
 </html>
